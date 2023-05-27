@@ -1,12 +1,14 @@
-h1 {
-    color: #27aedb;
-    text-align: center;
-    }
-    
-
-button{
-    color: #27aedb;
-    text-align: center;
-    justify-content: center;
+.review{
+    width: 400px;
+    height: 500px;
+    border: 1px solid black;
+    display: flex;
     align-items: center;
+    justify-content: center;
+    gap: 2px;
+    flex-direction: column-reverse;
+    padding: 1rem 1rem;
+}
+.person-img img{
+    width: 180px;
 }
